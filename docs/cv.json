@@ -1,0 +1,78 @@
+{
+  "name": "Priya Ramanathan",
+  "role": "Postdoctoral Researcher",
+  "affiliation": "Davis Lab, University of Glasgow",
+  "email": "p.ramanathan@example.ac.uk",
+  "blurb": "I watch single mRNA molecules find their way around living neurons.",
+  "image": "assets/larval-brain-development.png",
+
+  "links": [
+    { "label": "ORCID", "url": "https://orcid.org/0000-0002-1825-0097" },
+    { "label": "GitHub", "url": "https://github.com/pramanathan-example" },
+    { "label": "Bluesky", "url": "https://bsky.app/profile/example.bsky.social" }
+  ],
+
+  "positions": [
+    {
+      "title": "Postdoctoral Researcher",
+      "org": "University of Glasgow",
+      "location": "Glasgow, UK",
+      "start": "2023-09",
+      "end": null,
+      "detail": "Live imaging of RNA transport in Drosophila neural stem cells."
+    },
+    {
+      "title": "PhD in Molecular Biology",
+      "org": "University of Edinburgh",
+      "location": "Edinburgh, UK",
+      "start": "2019-10",
+      "end": "2023-08",
+      "detail": "Thesis: Local translation at the synapse."
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Systematic analysis of YFP traps reveals mRNA and protein discordance in neural tissue",
+      "authors": ["Ramanathan P", "Example A", "Davis I"],
+      "journal": "Journal of Cell Biology",
+      "year": 2025,
+      "doi": "10.1083/jcb.example",
+      "highlight": true,
+      "plain": "Where a gene's message goes is often not where its protein ends up."
+    },
+    {
+      "title": "A cheap open-source light sheet microscope for teaching labs",
+      "authors": ["Okonkwo T", "Ramanathan P"],
+      "journal": "bioRxiv",
+      "year": 2026,
+      "doi": "10.1101/2026.01.15.example",
+      "highlight": false,
+      "plain": "You can build a working microscope for less than a laptop costs."
+    },
+    {
+      "title": "Dynein adaptors tune mRNA transport speed in developing axons",
+      "authors": ["Ramanathan P", "MacLeod F", "Davis I"],
+      "journal": "RNA",
+      "year": 2024,
+      "doi": "10.1261/rna.example",
+      "highlight": false,
+      "plain": "Cells change the motors on their cargo to control delivery speed."
+    }
+  ],
+
+  "talks": [
+    {
+      "title": "Seeing translation happen, one molecule at a time",
+      "event": "British Society for Cell Biology Annual Meeting",
+      "year": 2026,
+      "kind": "invited"
+    }
+  ],
+
+  "skills": {
+    "Imaging": ["smFISH", "light sheet", "spinning disk confocal", "FRAP"],
+    "Computational": ["Python", "napari", "image segmentation"],
+    "Wet lab": ["Drosophila genetics", "CRISPR knock-in"]
+  }
+}

@@ -1,0 +1,97 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+
+# --- Editors ---
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# --- Node / npm (if used for tooling) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# --- Dependencies & build output ---
+vendor/
+bower_components/
+dist/
+build/
+out/
+coverage/
+*.min.js
+*.min.css
+
+# --- Logs & temp files ---
+logs/
+*.log
+*.tmp
+*.temp
+*.cache
+
+# --- Environment & config ---
+.env
+.env.*
+!.env.example
+
+# --- Testing ---
+.spec/
+test-results/
+playwright-report/
+.nyc_output/
+
+# --- Misc ---
+.DS_Store
+*.swp
+.htaccess.bak
